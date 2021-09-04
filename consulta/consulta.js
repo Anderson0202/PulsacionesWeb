@@ -11,7 +11,5 @@ function consultar() {
         pval += "<td>" + element.pulsacion + "</td>"
         pval += "</tr>"
     });
-
-
     document.getElementById("tbCuerpo").innerHTML = pval;
 }
