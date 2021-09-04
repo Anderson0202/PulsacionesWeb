@@ -1,0 +1,90 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#videoAnime {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    z-index: -10;
+    visibility: visible;
+}
+
+.h {
+    color: dimgray;
+    text-align: center;
+}
+
+.listul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+ul a li {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    color: #A71930;
+}
+
+a li:hover {
+    background-color: #ffffff;
+    font-size: large;
+}
+
+.video {
+    position: fixed;
+    top: 160px;
+    right: 15px;
+    border-radius: 30px;
+    -webkit-box-shadow: 1px 1px 25px #A71930;
+    -moz-box-shadow: 1px 1px 25px #A71930;
+    box-shadow: 1px 1px 25px #A71930;
+}
+
+.btnRegistrar {
+    position: fixed;
+    right: 145px;
+    color: white;
+}
+
+.btnConsultar {
+    position: fixed;
+    right: 40px;
+    color: white;
+}
+
+.btnConsultar:hover {
+    color: hsl(0, 100%, 27%);
+}
+
+.btnRegistrar:hover {
+    color: hsl(0, 100%, 27%);
+}
+
+p {
+    color: rgb(116, 112, 112);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    -webkit-box-shadow: 1px 1px 25px #A71930;
+    -moz-box-shadow: 1px 1px 25px #A71930;
+    box-shadow: 1px 1px 25px #A71930;
+    padding: 40px;
+    font-size: 15pt;
+    background-image: -moz-linear-gradient(225deg, #A71930 26%, #FFFFFF 50%);
+    background-image: -webkit-gradient(linear, right top, left bottom, color-stop(0.26, #A71930), color-stop(0.31, #000000));
+}
+
+footer {
+    color: white;
+    font-size: 13pt;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link href="registro.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+    <ul class="listul">
+        <a href="../index.html">
+            <li>Inicio</li>
+        </a>
+
+        <a href="../consulta/consulta.html">
+            <li class="btnConsultar">Consultar</li>
+        </a>
+        <a href="registro.html">
+            <li class="btnRegistrar">Registrar</li>
+        </a>
+    </ul>
+    <h1 class="h">
+        Registro de Pulsaciones
+    </h1>
+    <section>
+        <article>
+            <form class="entradas">
+                <div class="form-group">
+                    <label>Identificacion</label><br>
+                    <input id="identificacion" type="text" name="identificacion" placeholder="Ingresa tu identificacion">
+                </div><br><br>
+                <div>
+                    <label>Nombre</label><br>
+                    <input id="nombre" type="text" name="name" placeholder="Ingresa tu nombre">
+                </div><br><br>
+                <div>
+                    <label>Sexo</label><br>
+                    <select name="genero" id="operacionSeleccionada" placeholder="SELECCIONE">
+                    <option>FEMENINO</option>
+                    <option>MASCULINO</option>
+                </select>
+                </div><br><br>
+                <div>
+                    <label>Edad</label><br>
+                    <input id="edad" type="number" name="edad" placeholder="Ingresa tu edad">
+                </div><br><br>
+
+                <button type="button" onclick="calcularPulsacion()">Registrar</button>
+
+            </form>
+            <div class="pulsacion">
+                <label>Pulsacion: </label>
+                <span class="bordeado">
+                <input id="pulsacion" type="number" name="pulsacion" placeholder="registrate para calcular"><br>
+            </span>
+            </div>
+        </article>
+
+        <script src="registro.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,113 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+}
+
+.h {
+    color: dimgray;
+    text-align: center;
+}
+
+.listul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+ul a li {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a li:hover {
+    background-color: hsl(0, 0%, 100%);
+    font-size: large;
+    color: hsl(0, 100%, 27%)
+}
+
+.btnRegistrar {
+    position: fixed;
+    right: 145px;
+    color: hsl(0, 100%, 27%);
+}
+
+.btnConsultar {
+    position: fixed;
+    right: 40px;
+    color: white;
+}
+
+.btnConsultar:hover {
+    color: hsl(0, 100%, 27%);
+}
+
+.btnRegistrar:hover {
+    color: hsl(0, 100%, 27%);
+}
+
+.entradas {
+    color: rgb(255, 255, 255);
+    border: 8px solid #333333;
+    border-radius: 20px;
+    padding: 100px;
+    width: 500px;
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input {
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    color: #000000;
+    width: 200px;
+    height: 25px;
+}
+
+select {
+    color: white;
+    border-radius: 30;
+    width: 200px;
+    height: 25px;
+}
+
+button {
+    width: 120px;
+    height: 30px;
+    background-color: hsl(0, 100%, 27%);
+    border-radius: 29px;
+    color: hsl(0, 0%, 100%);
+}
+
+.pulsacion {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+}
+
+.bordeado {
+    background-color: #000000;
+    color: #000000;
+    border-radius: 25;
+    width: 400px;
+    height: 45px;
+}
+
+table {
+    color: white;
+}
+
+tbody {
+    color: white;
+}

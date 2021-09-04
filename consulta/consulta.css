@@ -1,0 +1,73 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+}
+
+.h {
+    color: dimgray;
+    text-align: center;
+}
+
+.listul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+ul a li {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    color: #f8f8f8;
+}
+
+a li:hover {
+    background-color: #ffffff;
+    font-size: large;
+}
+
+.btnRegistrar {
+    position: fixed;
+    right: 145px;
+    color: white;
+}
+
+.btnConsultar {
+    position: fixed;
+    right: 40px;
+    color: hsl(0, 100%, 27%);
+}
+
+.btnConsultar:hover {
+    color: hsl(0, 100%, 27%);
+}
+
+.btnRegistrar:hover {
+    color: hsl(0, 100%, 27%);
+}
+
+table {
+    color: white;
+}
+
+tbody {
+    color: white;
+}
+
+button {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    width: 120px;
+    height: 30px;
+    background-color: hsl(0, 100%, 27%);
+    border-radius: 29px;
+}

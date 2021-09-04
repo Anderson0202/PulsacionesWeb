@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta</title>
+    <link href="consulta.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+    <ul class="listul">
+        <a href="../index.html">
+            <li>Inicio</li>
+        </a>
+
+        <a href="consulta.html">
+            <li class="btnConsultar">Consultar</li>
+        </a>
+        <a href="../registro/registro.html">
+            <li class="btnRegistrar">Registrar</li>
+        </a>
+    </ul>
+    <h1 class="h">
+        Consulta de Pulsaciones
+
+    </h1>
+    <button type="button" onclick="consultar()">Consultar</button>
+    <section>
+        <article>
+            <table>
+                <thead>
+                    <tr>
+                        <th>identificacion</th>
+                        <th>Nombre</th>
+                        <th>Edad</th>
+                        <th>Sexo</th>
+                        <th>Pulsacion</th>
+                    </tr>
+                </thead>
+                <tbody id="tbCuerpo"></tbody>
+            </table>
+        </article>
+    </section>
+
+    <script src="consulta.js"></script>
+    <script src="../registro/registro.js"></script>
+</body>
+
+</html>
